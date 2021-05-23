@@ -126,7 +126,7 @@ h5
 .searchbar
 {
     display: flex;
-   align-items: center;
+    align-items: center;
 }
 
 .pin
@@ -238,6 +238,7 @@ h5
     padding-left: 0px;
     margin-left: 0px;
     border-left: 0px;
+    transition-duration: 0.4s;
 }
 
 .filter-item li a:hover
@@ -278,7 +279,7 @@ h5
     margin-right: 20px; 
     border: solid #f2f2f2 2px;
     border-radius: 50% ;
-    color: #0065fc;      
+    color: #0065fc;   
 }
 /*Section main*/
 
@@ -364,6 +365,12 @@ h5
     margin-top: 30px;
 }
 
+.section-main_accomodation article:hover
+{
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+
 .section-main_accomodation a
 {
     color: #000;
@@ -429,6 +436,12 @@ h5
     text-decoration: none;
     text-align: left;
     color: #000;
+}
+
+.section-main_popular article:hover
+{
+    transform: scale(1.2);
+    transition: 0.4s;
 }
 
 .section-main_popular article a div
