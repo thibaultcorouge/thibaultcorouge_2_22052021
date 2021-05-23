@@ -1,9 +1,6 @@
 body
 {
     font-family: 'raleway', sans-serif;
-    margin-right: 5%;
-    margin-left: 5%;
-
 }
 
 h2
@@ -12,10 +9,33 @@ h2
     font-weight: bold;
 }
 
+h3
+{
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 0px;
+}
+
+h4
+{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.header
+{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+/*Logo*/
+
 .logo img
 {
-    width: 96px;
-    height: 40px;
+    width: 95px;
+    height: 45px;
 }
 
 .logo-menu
@@ -24,6 +44,11 @@ h2
     align-items: center;
     justify-content: space-between;
 }
+
+
+/*Menu Navigation*/
+
+
 .menu ul
 {
     display: flex;
@@ -33,8 +58,7 @@ h2
 
 .menu ul li
 {
-    margin: 10px;
-    padding: 10px;
+    margin-right: 70px;
 }
 
 .menu-item_active
@@ -59,14 +83,18 @@ h2
     text-decoration: none;
 }
 
+/*Baseline*/
+
 .header-baseline
 {
- margin-bottom: 15px;
+    margin-top: 40px ;
+    margin-bottom: 15px;
+    line-height: 30px;
 }
 
 .baseline1
 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     color: black;
 }
@@ -75,8 +103,9 @@ h2
 {
     font-size: 14px;
     color: black;
-    margin: 10px 10px;
 }
+
+/* Searchbar*/
 
 .searchbar
 {
@@ -118,6 +147,10 @@ h2
     height: 40px;
     margin-left: -10px;
 }
+
+
+/*Filters*/
+
 
 .filter
 {
@@ -171,7 +204,7 @@ h2
     padding: 15px;
 }
 
-
+/*Information*/
 
 .info
 {
@@ -191,10 +224,42 @@ justify-content: flex-start;
     border-radius: 50% ;
     color: #0065fc;      
 }
-/*
-/*
-/*
-/*
-/*
-/*
-/*
+/*Section*/
+
+
+
+
+/*Footer*/
+
+.footer 
+{
+    background-color: #f2f2f2;
+    line-height: 30px;
+}
+
+.footer-item
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.footer-item_about ul
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    list-style-type: none; 
+    margin-top: 10px;
+}
+
+.footer-item_about a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
