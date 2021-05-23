@@ -237,7 +237,6 @@ h5
     padding: 10px;
     padding-left: 0px;
     margin-left: 0px;
-    border-left: 0px;
     transition-duration: 0.4s;
 }
 
@@ -260,6 +259,7 @@ h5
     background-origin: padding-box;
     padding: 15px;
 }
+
 
 /*Information*/
 
@@ -334,9 +334,13 @@ h5
 .section-main_accomodation h3
 {
     margin-left: 40px;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    margin-top: 40px;
     text-decoration: none;
+}
+
+.section-main_accomodation h3:hover
+{
+    text-decoration: underline;
 }
 
 .section-main_accomodation_second
@@ -464,14 +468,15 @@ h5
 
 .section-secondary
 {
+    width: 1340px;
+    height: 500px;
+    margin-right: 50px;
+    margin-left: 50px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
+    
 }
-
 .section-secondary h2
 {
     font-size: 22px;
@@ -481,42 +486,75 @@ h5
 {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    border: solid black;
+    justify-content: space-between;
+    height: 450px;
     width: 1340px;
-    /* height: 430px ;*/
 }
-
 
 .section-secondary_activity article
 {
+    text-decoration: none;
+    color: #000;
+    box-shadow: 5px 5px 10px #f2f2f2;
     border-radius: 20px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 15px;
-    font-weight: 600;
-    box-shadow: 2px 2px 10px #f2f2f2;
     padding-bottom: 10px;
-    border: black 1px solid;
 }
+
+.section-secondary_activity article:hover
+
+{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
 
 .section-secondary_activity a
 {
     text-decoration: none;
-    color: #000;
 }
 
-.section-secondary_activity img
-{
-    width: 300px;
-    max-height: 390px;
+.section-secondary_activity img 
+{   
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     object-fit: cover;
-    
 }
 
+.activity-photo1
+{
+    width: 300px;
+    height: 390px;
+}
+
+.activity-photo2
+{
+    width: 300px;
+    height: 180px;
+}
+
+.activity-photo3
+{
+    width: 300px;
+    height: 110px;
+}
+
+.activity-photo4
+{
+    width: 300px;
+    height: 390px;
+}
+
+.activity-photo5
+{
+    width: 300px;
+    height: 140px;
+}
+
+.activity-photo6
+{
+    width: 300px;
+    height: 150px;
+}
 
 /*Footer*/
 
@@ -553,3 +591,7 @@ h5
     font-size: 15px;
 }
 
+.footer-item_about a:hover
+{
+    text-decoration: underline;
+}
