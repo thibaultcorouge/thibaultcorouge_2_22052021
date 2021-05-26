@@ -176,7 +176,6 @@ h5
     border: solid #DEEBFF 1px;
     padding-right: 15px;
     padding-left: 15px;
-    /* margin-right: 0px; */
 }
 
 .pin:hover
@@ -193,7 +192,6 @@ h5
     height: 36px;
     border: solid 1px #f2f2f2 ;
     padding-left: 15px;
-    /* margin-left: 0px; */
 }
 
 .textbox:focus
@@ -246,7 +244,7 @@ h5
 
 .filter span
 {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
 }
 
@@ -284,8 +282,7 @@ h5
     transition-duration: 0.4s;
 }
 
-
-#icon-color
+.filter-item i
 {
     text-align: center;
     vertical-align: middle;
@@ -316,6 +313,8 @@ h5
     margin-right: 20px;
     border: solid #f2f2f2 2px;
     border-radius: 50% ;
+    height: 20px;
+    width: 20px;
     color: #0065fc;
 }
 
@@ -506,7 +505,10 @@ section
     text-align: left;
 }
 
-
+.section-main_popular h4
+{
+    margin-bottom: -15px;
+}
 
 
 
