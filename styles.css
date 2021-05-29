@@ -1,7 +1,9 @@
-body
+@media screen and (max-width:5120px)
+{   
+    body
 {
     font-family: 'raleway', sans-serif;
-    max-width: 1400px;
+    max-width: 1250px;
     /* height: auto; */
     margin: auto;
     /* display: flex;
@@ -66,13 +68,15 @@ h5
     justify-content: space-between;
     align-items: center;
     width: 400px;
+    
 }
 
 .menu a:hover
 {
     border-top: 3px #0065fc solid;
     color: #0065fc;
-    padding-top: 32px;
+    padding-top: 22px;
+    margin-bottom: 20px;
     padding-left: 10px;
     padding-right: 10px;
     margin-right: -10px;
@@ -285,9 +289,13 @@ h5
     color: #0065fc; 
 }
 
-/* Section all */
+
+
 
 /*Section main*/
+
+
+
 .section-main_accomodation h3
 {
     margin-left: 45px;
@@ -322,7 +330,6 @@ h5
     justify-content: space-evenly;
     flex-wrap: wrap;
     background-color: #f2f2f2;
-    border: white solid 2px;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -401,10 +408,7 @@ h5
 /* Section main popular*/
 
 
-.section-main_popular
-{
-    margin-left: 40px;
-}
+
 .section-main_popular h2
 {
     margin-left: 30px;
@@ -431,7 +435,6 @@ h5
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: #f2f2f2;
-    border: solid white 2px;
     border-radius: 25px;
     padding: 10px;
     width: 400px;
@@ -453,7 +456,6 @@ h5
     text-align: left;
     color: #000;
 }
-
 
 .section-main_popular article
 {
@@ -595,7 +597,11 @@ margin-bottom: 20px;
     height: 150px;
 }
 
+
+
 /*Footer*/
+
+
 
 .footer
 {
@@ -634,35 +640,51 @@ margin-bottom: 20px;
     color: #0065fc;
 }
 
-/* 
-
-.section-secondary_activity
-{
-margin-bottom: 20px;
-display: flex;
-flex-wrap: wrap-reverse;
-justify-content:space-evenly;
+    
 }
 
-.activity-photo5
+
+
+/* media queries screen ipad pro 12"  */
+
+
+
+@media screen and (min-width:993px) and (max-width:1200px) 
 {
-    width: 650px;
-    height: 245px;
+
+    .section-secondary_activity
+    {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content:space-evenly;
+    }
+
+    .activity-photo5
+    {
+        width: 650px;
+        height: 245px;
+    }
+
+    .activity-photo6
+    {
+        width: 650px;
+        height: 200px;
+    }
+    
 }
 
-.activity-photo6
-{
-    width: 650px;
-    height: 200px;
-} */
+
+/* media queries   laptop screen/tablet */
+
 
 
 @media screen and (max-width:992px)
 {   
-    body
+    /* body
     {
         margin: auto;
-    }
+    } */
 
     .search
     {
@@ -697,7 +719,6 @@ justify-content:space-evenly;
     .section-main_accomodation
     {
         background-color: white;
-        border: solid 2px #f2f2f2;
     }
 
     .section-main_accomodation h3
@@ -733,7 +754,17 @@ justify-content:space-evenly;
         margin: 0px;
         border: solid 2px #f2f2f2;
     }
+    .section-secondary
+    {
+        display: flex;
+        justify-content: space-between;
+    }
 }
+
+
+
+/*  media queries tablet */
+
 
 
 @media screen and (max-width: 768px)
@@ -758,6 +789,9 @@ justify-content:space-evenly;
     
 }
 
+
+/* media queries smartphone */
+
 @media screen and (max-width: 480px)
 { 
 
@@ -774,7 +808,6 @@ justify-content:space-evenly;
     {
         margin-left: 20px;
     }
-
     .logo-menu
     {
         display: flex;
@@ -860,7 +893,6 @@ justify-content:space-evenly;
         font-family: 'raleway', sans-serif;
         font-weight: 700;
         transition-duration: 0.4s;
-        padding: 50x;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -877,7 +909,6 @@ justify-content:space-evenly;
         height: 46px;
         border-right: none;
         border-left:none;
-        padding-right: px;
     }
 
     .filter
@@ -931,21 +962,19 @@ justify-content:space-evenly;
     .section-main_popular
     {   
         width: auto;
-        padding: 0px;
+        padding-bottom: 30px;
         justify-content: space-around;
         align-items: flex-start;
         border-radius: 0px;
-        padding-right: 0px;
-        margin: 0px;
     }
+
     .section-main_popular article
     {
-        padding: 15px;
+        padding-bottom: 5px;
     }
 
     .section-main_popular a
     {
-        padding: 0px;
         width: 345px;
     }
     
