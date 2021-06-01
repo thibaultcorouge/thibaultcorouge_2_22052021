@@ -429,7 +429,6 @@ h5
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: left;
 }
 
 .section-main_popular article a
